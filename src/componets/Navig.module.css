@@ -1,0 +1,36 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 10px;
+  text-align: start;
+  align-self: center;
+  font-family: 'Montserrat';
+  font-size: 1.8rem;
+}
+
+.linksPanel {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.basket {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

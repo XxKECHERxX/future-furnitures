@@ -1,0 +1,22 @@
+.sectionCatalog {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.tableCatalog {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(4, max-content);
+}
+
+.pointMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 280px;
+  border-radius: 10px;
+  margin: 10px;
+  border: solid 1px #000;
+}

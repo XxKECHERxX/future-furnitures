@@ -1,0 +1,77 @@
+.sectionSales {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  padding-right: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: auto;
+  margin: 0 5px;
+  font-size: 3rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: solid 1px #000;
+}
+
+.slider {
+  width: 1000px;
+  display: flex;
+  overflow: hidden;
+}
+
+.frameSales {
+  position: relative;
+  width: 450px;
+  height: 260px;
+  margin: 0 10px;
+  transition: ease-in-out;
+}
+
+.frameSales p {
+  position: absolute;
+  width: 300px;
+  bottom: 0;
+  right: 0px;
+  text-align: center;
+  z-index: 10;
+}
+
+.boxSales {
+  position: relative;
+  width: 420px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.triangle {
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.frameSales img {
+  width: 420px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.frameShadow {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+  z-index: -5;
+  width: 420px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #bbb0a6;
+}
