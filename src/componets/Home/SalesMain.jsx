@@ -30,7 +30,10 @@ const SalesMain = () => {
               transitionDuration: `300ms`,
             }}
           >
-            <p>Откройте для себя мир стильной мебели по уникальным ценам.</p>
+            <p>
+              <h2>5 % скидка</h2> новым клиентам. Откройте для себя мир стильной
+              мебели по уникальным ценам.
+            </p>
             <div className={styles.boxSales}>
               <div className={styles.triangle}>
                 <Triangle />
@@ -47,7 +50,11 @@ const SalesMain = () => {
               transitionDuration: `350ms`,
             }}
           >
-            <p>Не упустите шанс обновить интерьер по выгодной цене!</p>
+            <p>
+              <h2>7.5 % скидка</h2>
+              при покупке от 3-х позиций. Не упустите шанс обновить интерьер по
+              выгодной цене!
+            </p>
             <div className={styles.boxSales}>
               <div className={styles.triangle}>
                 <Triangle />
@@ -64,7 +71,10 @@ const SalesMain = () => {
               transitionDuration: `400ms`,
             }}
           >
-            <p>Посетите наш магазин сегодня и обновите свой дом.</p>
+            <p>
+              <h2>10 % скидка</h2>при оформлении карты магазина. Посетите наш
+              магазин сегодня и обновите свой дом.
+            </p>
             <div className={styles.boxSales}>
               <div className={styles.triangle}>
                 <Triangle />

@@ -1,0 +1,116 @@
+.promotions {
+  display: grid;
+  grid-template-columns: 600px 420px;
+  grid-template-rows: 400px 280px;
+  height: 700px;
+  margin: 40px 300px;
+}
+
+.promo {
+  position: relative;
+  height: auto;
+}
+
+.promoFront {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 540px;
+  height: 380px;
+}
+
+.promoFront img {
+  position: absolute;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.promoText {
+  z-index: 10;
+  display: flex;
+  width: auto;
+  padding: 20px 0px;
+  border-radius: 10px 0px 0px 10px;
+  background: #fff;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.promoText h3 {
+    margin: 20px;
+}
+
+.secondLayer {
+  position: absolute;
+  z-index: -5;
+  top: 20px;
+  left: 50px;
+  width: 540px;
+  height: 380px;
+  border-radius: 10px;
+  background: #bbb0a6;
+}
+
+.thirdLayer {
+  position: absolute;
+  z-index: -10;
+  top: 40px;
+  left: 100px;
+  width: 540px;
+  height: 380px;
+  border-radius: 10px;
+  background: #8a827b;
+}
+
+.promoFrontSecond {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 360px;
+  height: 380px;
+}
+
+.promoFrontSecond img {
+  position: absolute;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.shadowLayerSec {
+  position: absolute;
+  z-index: -5;
+  top: 20px;
+  left: 50px;
+  width: 360px;
+  height: 380px;
+  border-radius: 10px;
+  background: #bbb0a6;
+}
+
+.promoFrontThird {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 540px;
+  height: 250px;
+}
+
+.promoFrontThird img {
+  position: absolute;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.shadowLayerThird {
+  position: absolute;
+  z-index: -5;
+  top: 20px;
+  left: 50px;
+  width: 540px;
+  height: 250px;
+  border-radius: 10px;
+  background: #bbb0a6;
+}
