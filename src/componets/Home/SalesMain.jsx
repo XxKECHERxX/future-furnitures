@@ -31,8 +31,10 @@ const SalesMain = () => {
             }}
           >
             <p>
-              <h2>5 % скидка</h2> новым клиентам. Откройте для себя мир стильной
-              мебели по уникальным ценам.
+              <span>Скидка 5% </span>
+              <br />
+              новым клиентам. Откройте для себя мир стильной мебели по
+              уникальным ценам.
             </p>
             <div className={styles.boxSales}>
               <div className={styles.triangle}>
@@ -40,7 +42,6 @@ const SalesMain = () => {
               </div>
               <img src={secondSales} alt="Акция Вторая" />
             </div>
-            <div className={styles.frameShadow} />
           </div>
 
           <div
@@ -51,7 +52,8 @@ const SalesMain = () => {
             }}
           >
             <p>
-              <h2>7.5 % скидка</h2>
+              <span>Скидка 7.5% </span>
+              <br />
               при покупке от 3-х позиций. Не упустите шанс обновить интерьер по
               выгодной цене!
             </p>
@@ -61,7 +63,6 @@ const SalesMain = () => {
               </div>
               <img src={firstSales} alt="Акция Первая" />
             </div>
-            <div className={styles.frameShadow} />
           </div>
 
           <div
@@ -72,8 +73,10 @@ const SalesMain = () => {
             }}
           >
             <p>
-              <h2>10 % скидка</h2>при оформлении карты магазина. Посетите наш
-              магазин сегодня и обновите свой дом.
+              <span>Скидка 10% </span>
+              <br />
+              при оформлении карты магазина. Посетите наш магазин сегодня и
+              обновите свой дом.
             </p>
             <div className={styles.boxSales}>
               <div className={styles.triangle}>
@@ -81,7 +84,6 @@ const SalesMain = () => {
               </div>
               <img src={thirdSales} alt="Акция Третья" />
             </div>
-            <div className={styles.frameShadow} />
           </div>
         </div>
 

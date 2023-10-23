@@ -13,12 +13,8 @@ const Header = () => {
             элегантности.
           </p>
         </div>
-        <div className={styles.headMainFrame}>
-          <div className={styles.frontFrame}>
-            <img src={guestroom} alt="Gallery guestroom" />
-          </div>
-          <div className={styles.frontSecondFrame} />
-          <div className={styles.frontThirdFrame} />
+        <div className={styles.frontFrame}>
+          <img src={guestroom} alt="Gallery guestroom" />
         </div>
       </div>
     </header>

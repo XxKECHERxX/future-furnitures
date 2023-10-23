@@ -6,50 +6,28 @@ import lamp from '../UI/images/main/lamp.jpg'
 import table from '../UI/images/main/table.jpg'
 
 const CatalogMenu = () => {
+  const menuCatologMain = [
+    { id: 1, nameFile: chairs, comment: 'Стулья' },
+    { id: 2, nameFile: beds, comment: 'Столы' },
+    { id: 3, nameFile: closet, comment: 'Кровати' },
+    { id: 4, nameFile: lamp, comment: 'Шкафы' },
+    { id: 5, nameFile: table, comment: 'Светильник' },
+  ]
+
   return (
     <section className={styles.sectionCatalog}>
       <div className={styles.tableCatalog}>
         <div className={styles.pointCatalog}>Каталог</div>
 
-        <div className={styles.pointMenu}>
-          <div className={styles.MenuCatalog}>
-            <img src={chairs} alt="Стулья" />
-          </div>
-          <div className={styles.SecLayer} />
-          <div className={styles.ThirdLayer} />
-        </div>
-
-        <div className={styles.pointMenu}>
-          <div className={styles.MenuCatalog}>
-            <img src={table} alt="Столы" />
-          </div>
-          <div className={styles.SecLayer} />
-          <div className={styles.ThirdLayer} />
-        </div>
-
-        <div className={styles.pointMenu}>
-          <div className={styles.MenuCatalog}>
-            <img src={beds} alt="Кровати" />
-          </div>
-          <div className={styles.SecLayer} />
-          <div className={styles.ThirdLayer} />
-        </div>
-
-        <div className={styles.pointMenu}>
-          <div className={styles.MenuCatalog}>
-            <img src={closet} alt="Шкафы" />
-          </div>
-          <div className={styles.SecLayer} />
-          <div className={styles.ThirdLayer} />
-        </div>
-
-        <div className={styles.pointMenu}>
-          <div className={styles.MenuCatalog}>
-            <img src={lamp} alt="Светильник" />
-          </div>
-          <div className={styles.SecLayer} />
-          <div className={styles.ThirdLayer} />
-        </div>
+        {menuCatologMain.map((point) => {
+          return (
+            <div key={point.id} className={styles.pointMenu}>
+              <div className={styles.MenuCatalog}>
+                <img src={point.nameFile} alt={point.comment} />
+              </div>
+            </div>
+          )
+        })}
       </div>
     </section>
   )

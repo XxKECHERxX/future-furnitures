@@ -1,0 +1,79 @@
+.sectionCatalog {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+}
+
+.points ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 225px;
+  padding: 0px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+.points li {
+  display: flex;
+  width: 200px;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #fff;
+  font-size: 1.1rem;
+  box-shadow: #bbb0a6 20px -10px;
+}
+
+.points li:hover {
+  width: 225px;
+  box-shadow: #ded2c6 20px -10px;
+  cursor: pointer;
+}
+
+.filter {
+  margin: 5px 10px;
+  display: flex;
+  width: 850px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #ded2c6;
+  box-shadow: #bbb0a6 20px -10px;
+}
+
+.filter ul {
+  display: flex;
+  width: 775px;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.filter li {
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+.stuff {
+  width: 850px;
+  height: 1260px;
+  margin: 10px;
+  border: solid 1px #000;
+  border-radius: 10px;
+}

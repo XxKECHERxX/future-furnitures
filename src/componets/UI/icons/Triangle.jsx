@@ -17,9 +17,9 @@ const Triangle = () => {
           y2="250"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" stop-opacity="0" />
-          <stop offset="0.625" stop-color="#DCD5CE" stop-opacity="0.588542" />
-          <stop offset="1" stop-color="#DED2C6" />
+          <stop stopColor="#D9D9D9" stopOpacity="0" />
+          <stop offset="0.625" stopColor="#DCD5CE" stopOpacity="0.588542" />
+          <stop offset="1" stopColor="#DED2C6" />
         </linearGradient>
       </defs>
     </svg>

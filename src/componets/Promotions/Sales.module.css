@@ -1,35 +1,37 @@
+.sectionPromos {
+  display: flex;
+  justify-content: center;
+}
+
 .promotions {
   display: grid;
-  grid-template-columns: 600px 420px;
-  grid-template-rows: 400px 280px;
-  height: 700px;
-  margin: 40px 300px;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(2, max-content);
+  margin: 30px auto;
+  padding-bottom: 10px;
 }
 
-.promo {
-  position: relative;
-  height: auto;
+.promotions img {
+  position: absolute;
+  border-radius: 10px;
 }
 
-.promoFront {
+.firstPromo {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
-  width: 540px;
+  width: 640px;
   height: 380px;
-}
-
-.promoFront img {
-  position: absolute;
-  z-index: 5;
+  margin: 0px;
   border-radius: 10px;
+  box-shadow: #ded2c6 50px 20px, #bbb0a6 100px 40px;
 }
 
 .promoText {
   z-index: 10;
   display: flex;
   width: auto;
+  margin-left: 50px;
   padding: 20px 0px;
   border-radius: 10px 0px 0px 10px;
   background: #fff;
@@ -38,79 +40,27 @@
 }
 
 .promoText h3 {
-    margin: 20px;
+  margin: 20px;
 }
 
-.secondLayer {
-  position: absolute;
-  z-index: -5;
-  top: 20px;
-  left: 50px;
-  width: 540px;
-  height: 380px;
-  border-radius: 10px;
-  background: #bbb0a6;
-}
-
-.thirdLayer {
-  position: absolute;
-  z-index: -10;
-  top: 40px;
-  left: 100px;
-  width: 540px;
-  height: 380px;
-  border-radius: 10px;
-  background: #8a827b;
-}
-
-.promoFrontSecond {
+.promoSecond {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
   width: 360px;
   height: 380px;
-}
-
-.promoFrontSecond img {
-  position: absolute;
-  z-index: 5;
+  margin: 0px;
   border-radius: 10px;
+  box-shadow: #ded2c6 50px 20px;
 }
 
-.shadowLayerSec {
-  position: absolute;
-  z-index: -5;
-  top: 20px;
-  left: 50px;
-  width: 360px;
-  height: 380px;
-  border-radius: 10px;
-  background: #bbb0a6;
-}
-
-.promoFrontThird {
+.promoThird {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
-  width: 540px;
+  width: 640px;
   height: 250px;
-}
-
-.promoFrontThird img {
-  position: absolute;
-  z-index: 5;
+  margin: 20px;
   border-radius: 10px;
-}
-
-.shadowLayerThird {
-  position: absolute;
-  z-index: -5;
-  top: 20px;
-  left: 50px;
-  width: 540px;
-  height: 250px;
-  border-radius: 10px;
-  background: #bbb0a6;
+  box-shadow: #ded2c6 50px 20px;
 }

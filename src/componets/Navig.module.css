@@ -1,8 +1,9 @@
 .navBar {
   display: flex;
   justify-content: space-between;
-  height: 75px;
+  height: auto;
   width: 100%;
+  margin: 10px 0px;
 }
 
 .logo {
@@ -11,7 +12,7 @@
   text-align: start;
   align-self: center;
   font-family: 'Montserrat';
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .linksPanel {
@@ -26,6 +27,11 @@
   font-family: 'Montserrat';
   font-size: 1.2rem;
   color: #000;
+  padding: 10px 15px;
+}
+
+.navLinks:hover {
+  border: solid 1px #000;
 }
 
 .basket {

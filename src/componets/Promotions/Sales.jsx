@@ -5,44 +5,34 @@ import promoThird from '../UI/images/promotion/promoThird.jpg'
 
 const Sales = () => {
   return (
-    <section>
+    <section className={styles.sectionPromos}>
       <div className={styles.promotions}>
-        <div className={styles.promo}>
-          <div className={styles.promoFront}>
-            <img src={promoFirst} alt="Первая акция" />
-            <div className={styles.promoText}>
-              <h3>5 % скидка</h3>новым клиентам. Праздничный сезон
-              приближается, и у нас есть для вас невероятные скидки! Откройте
-              для себя мир стильной мебели по уникальным ценам.
-            </div>
+        <div className={styles.firstPromo}>
+          <img src={promoFirst} alt="Первая акция" />
+          <div className={styles.promoText}>
+            <h3>5 % скидка</h3>новым клиентам. Праздничный сезон приближается, и
+            у нас есть для вас невероятные скидки! Откройте для себя мир
+            стильной мебели по уникальным ценам.
           </div>
-          <div className={styles.secondLayer} />
-          <div className={styles.thirdLayer} />
         </div>
 
-        <div className={styles.promo}>
-          <div className={styles.promoFrontSecond}>
-            <img src={promoSecond} alt="Вторая акция" />
-            <div className={styles.promoText}>
-              <h3>7.5 % скидка</h3>
-              при покупке от 3-х позиций. Это идеальное время для того, чтобы
-              превратить свой дом в уютное убежище. Не упустите шанс обновить
-              интерьер по выгодной цене!
-            </div>
+        <div className={styles.promoSecond}>
+          <img src={promoSecond} alt="Вторая акция" />
+          <div className={styles.promoText}>
+            <h3>7.5 % скидка</h3>
+            при покупке от 3-х позиций. Это идеальное время для того, чтобы
+            превратить свой дом в уютное убежище. Не упустите шанс обновить
+            интерьер по выгодной цене!
           </div>
-          <div className={styles.shadowLayerSec} />
         </div>
 
-        <div className={styles.promo}>
-          <div className={styles.promoFrontThird}>
-            <img src={promoThird} alt="Третья акция" />
-            <div className={styles.promoText}>
-              <h3>10 % скидка</h3>при оформлении карты магазина. Посетите наш
-              магазин сегодня и обновите свой дом с нашими эксклюзивными
-              предложениями.
-            </div>
+        <div className={styles.promoThird}>
+          <img src={promoThird} alt="Третья акция" />
+          <div className={styles.promoText}>
+            <h3>10 % скидка</h3>при оформлении карты магазина. Посетите наш
+            магазин сегодня и обновите свой дом с нашими эксклюзивными
+            предложениями.
           </div>
-          <div className={styles.shadowLayerThird} />
         </div>
       </div>
     </section>
