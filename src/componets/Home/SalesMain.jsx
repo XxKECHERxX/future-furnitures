@@ -3,6 +3,7 @@ import Triangle from '../UI/icons/Triangle'
 import firstSales from '../UI/images/main/salesFirst.jpg'
 import secondSales from '../UI/images/main/salesSecond.jpg'
 import thirdSales from '../UI/images/main/salesThird.jpg'
+import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
 const SalesMain = () => {
@@ -30,6 +31,7 @@ const SalesMain = () => {
               transitionDuration: `300ms`,
             }}
           >
+            <NavLink to="sales" className={styles.navLinks} />
             <p>
               <span>Скидка 5% </span>
               <br />
@@ -51,6 +53,7 @@ const SalesMain = () => {
               transitionDuration: `350ms`,
             }}
           >
+            <NavLink to="sales" className={styles.navLinks} />
             <p>
               <span>Скидка 7.5% </span>
               <br />
@@ -72,6 +75,7 @@ const SalesMain = () => {
               transitionDuration: `400ms`,
             }}
           >
+            <NavLink to="sales" className={styles.navLinks} />
             <p>
               <span>Скидка 10% </span>
               <br />

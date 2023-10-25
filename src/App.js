@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from './componets/MainLayout'
-import MainPage from './componets/Home/MainPage'
+import HomePage from './componets/Home/HomePage'
 import Catalog from './componets/Products/Сatalog'
 import Sales from './componets/Promotions/Sales'
 import About from './componets/Contacts/About'
@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<MainLayout />}>
-            <Route index element={<MainPage />} />
+            <Route index element={<HomePage />} />
             <Route path="products" element={<Catalog />} />
             <Route path="sales" element={<Sales />} />
             <Route path="about" element={<About />} />
