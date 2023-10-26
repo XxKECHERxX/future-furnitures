@@ -4,15 +4,14 @@ import { tables } from '../UI/images/tables/listTables'
 import { beds } from '../UI/images/beds/listBeds'
 import { closets } from '../UI/images/closets/listClosets'
 import { lamps } from '../UI/images/lamps/listLamps'
+import PageFullCatalog from './listFullCatalog'
 import { useState } from 'react'
 
 const Catalog = () => {
-  const fullCatalog = [...chairs, ...tables, ...beds, ...closets, ...lamps]
-  
-  const [displayItems, setDisplayItems] = useState(fullCatalog)
+  const [displayItems, setDisplayItems] = useState('')
 
   const handleDisplayAll = () => {
-    setDisplayItems(fullCatalog)
+    setDisplayItems('')
   }
   const handleDisplayChair = () => {
     setDisplayItems(chairs)
@@ -40,7 +39,7 @@ const Catalog = () => {
             <li onClick={handleDisplayTable}>Столы</li>
             <li onClick={handleDisplayBed}>Кровати</li>
             <li onClick={handleDisplayClosets}>Шкафы</li>
-            <li  onClick={handleDisplayLamps}>Освещение</li>
+            <li onClick={handleDisplayLamps}>Освещение</li>
           </ul>
         </div>
         <div>
@@ -52,13 +51,21 @@ const Catalog = () => {
             </ul>
           </div>
           <div className={styles.stuff}>
-            {displayItems.map((item) => {
-              return (
-                <div key={item.id} className={styles.items}>
-                  <img src={item.fileName} alt={item.name} />
-                </div>
-              )
-            })}
+            {!displayItems ? (
+              <PageFullCatalog />
+            ) : (
+              displayItems.map((item) => {
+                return (
+                  <div key={item.id} className={styles.items}>
+                    <ul>
+                      <li>{item.name}</li>
+                      <li>{item.price}$</li>
+                    </ul>
+                    <img src={item.fileName} alt={item.name} />
+                  </div>
+                )
+              })
+            )}
           </div>
         </div>
       </div>

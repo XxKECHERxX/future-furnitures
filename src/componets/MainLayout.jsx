@@ -6,7 +6,6 @@ const MainLayout = () => {
     <>
       <Navig />
       <Outlet />
-      <Navig />
     </>
   )
 }
