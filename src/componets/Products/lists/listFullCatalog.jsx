@@ -1,10 +1,11 @@
-import { chairs } from '../UI/images/chairs/listChairs'
-import { tables } from '../UI/images/tables/listTables'
-import { beds } from '../UI/images/beds/listBeds'
-import { closets } from '../UI/images/closets/listClosets'
-import { lamps } from '../UI/images/lamps/listLamps'
-import styles from './Catalog.module.css'
+import { chairs } from '../../UI/images/chairs/listChairs'
+import { tables } from '../../UI/images/tables/listTables'
+import { beds } from '../../UI/images/beds/listBeds'
+import { closets } from '../../UI/images/closets/listClosets'
+import { lamps } from '../../UI/images/lamps/listLamps'
+import styles from '../Catalog.module.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const fullCatalog = [...chairs, ...tables, ...beds, ...closets, ...lamps]
 
@@ -34,13 +35,13 @@ const PageFullCatalog = () => {
       <div className={styles.stuff}>
         {displayPage.map((item) => {
           return (
-            <div key={item.id} className={styles.items}>
+            <Link key={item.id} to={`${item.id}`} className={styles.items}>
               <ul>
                 <li>{item.name}</li>
                 <li>{item.price}$</li>
               </ul>
               <img src={item.fileName} alt={item.name} />
-            </div>
+            </Link>
           )
         })}
       </div>

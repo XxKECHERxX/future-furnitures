@@ -2,8 +2,16 @@ import styles from './Sales.module.css'
 import promoFirst from '../UI/images/promotion/promoFirst.jpg'
 import promoSecond from '../UI/images/promotion/promoSecond.jpg'
 import promoThird from '../UI/images/promotion/promoThird.jpg'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const Sales = () => {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
   return (
     <section className={styles.sectionPromos}>
       <div className={styles.promotions}>

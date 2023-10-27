@@ -11,8 +11,8 @@
 }
 
 .pointCatalog {
-  width: 390px;
-  height: 260px;
+  width: 350px;
+  height: 240px;
   border-radius: 10px;
   margin: auto;
   border: solid 1px #000;
@@ -43,6 +43,7 @@
   width: 390px;
   height: 260px;
   border-radius: 10px;
+  margin: 20px;
   box-shadow: #ded2c6 30px 10px, #bbb0a6 60px 20px;
 }
 
