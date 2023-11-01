@@ -43,13 +43,6 @@ const Catalog = () => {
           </ul>
         </div>
         <div>
-          <div className={styles.filter}>
-            <ul>
-              <li>Сортировка:</li>
-              <li>Название</li>
-              <li>Цена</li>
-            </ul>
-          </div>
           <Outlet />
         </div>
       </div>

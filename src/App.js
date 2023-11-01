@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import MainLayout from './componets/MainLayout'
 import HomePage from './componets/Home/HomePage'
 import Catalog from './componets/Products/Сatalog'
-import PageFullCatalog from './componets/Products/lists/listFullCatalog'
+import ListFullCatalog from './componets/Products/lists/listFullCatalog'
 import ListTables from './componets/Products/lists/listTables'
 import ListBeds from './componets/Products/lists/listBeds'
 import ListChairs from './componets/Products/lists/listChairs'
@@ -21,8 +21,8 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<HomePage />} />
           <Route path="products/*" element={<Catalog />}>
-            <Route index element={<PageFullCatalog />} />
-            <Route path="all" element={<PageFullCatalog />} />
+            <Route index element={<ListFullCatalog />} />
+            <Route path="all" element={<ListFullCatalog />} />
             <Route path="tables" element={<ListTables />} />
             <Route path="beds" element={<ListBeds />} />
             <Route path="chairs" element={<ListChairs />} />

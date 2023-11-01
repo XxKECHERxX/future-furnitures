@@ -3,12 +3,11 @@ import styles from '../Catalog.module.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-
 const PageFullCatalog = () => {
   const firstPage = fullCatalog.slice(0, 12)
   const secondPage = fullCatalog.slice(12, 24)
   const thirdPage = fullCatalog.slice(24, 36)
-  const fourPage = fullCatalog.slice(36, 43)
+  const fourPage = fullCatalog.slice(36, 44)
 
   const [displayPage, setDisplayPage] = useState(firstPage)
 
@@ -49,6 +48,5 @@ const PageFullCatalog = () => {
     </div>
   )
 }
-
 
 export default PageFullCatalog

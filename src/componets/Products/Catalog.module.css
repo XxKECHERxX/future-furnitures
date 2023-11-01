@@ -59,33 +59,6 @@
   color: #000;
 }
 
-.filter {
-  margin: 5px 10px;
-  display: flex;
-  width: 850px;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background: #ded2c6;
-  box-shadow: #bbb0a6 20px -10px;
-}
-
-.filter ul {
-  display: flex;
-  width: 775px;
-  justify-content: flex-start;
-  list-style: none;
-  padding: 5px 10px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-.filter li {
-  margin-right: 20px;
-  font-size: 1rem;
-}
-
 .stuff {
   display: flex;
   flex-wrap: wrap;

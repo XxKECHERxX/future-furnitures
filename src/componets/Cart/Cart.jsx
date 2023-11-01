@@ -2,6 +2,7 @@ import styles from './Cart.module.css'
 import Bin from '../UI/icons/Bin'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, deleteFromCart, removeFromCart } from '../store/cartSlice'
+import { useState } from 'react'
 
 const Cart = () => {
   const listToBuy = useSelector((state) => state.cart.list)
@@ -20,6 +21,12 @@ const Cart = () => {
 
   const deleteItem = (el) => {
     dispatch(deleteFromCart(el))
+  }
+
+  const [confirm, setConfirm] = useState('Заказать!')
+
+  const handlerConfirm = () => {
+    setConfirm('Готово!')
   }
 
   return (
@@ -49,12 +56,33 @@ const Cart = () => {
             )
           })}
         </>
-
         <div className={styles.total}>
           <div>Итого</div>
           <div>{totalQua} шт.</div>
           <div>{totalPrice} $</div>
         </div>
+      </div>
+
+      <div className={styles.orderForm}>
+        <form>
+          <label>
+            <input
+              type="text"
+              name="clientName"
+              placeholder="Имя Фамилия Отчество"
+            />
+          </label>
+          <label>
+            <input type="tel" name="number" placeholder="Номер телефона" />
+          </label>
+          <label>
+            <input type="email" name="email" placeholder="Адрес эл. почты" />
+          </label>
+          <label>
+            <input type="text" name="adress" placeholder="Адрес для доставки" />
+          </label>
+          <button type='reset' onClick={handlerConfirm}>{confirm}</button>
+        </form>
       </div>
     </section>
   )

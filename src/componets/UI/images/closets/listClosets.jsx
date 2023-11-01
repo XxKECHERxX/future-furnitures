@@ -4,6 +4,7 @@ import luxeWardrobe from './LuxeWardrobe.jpg'
 import modaMingleCloset from './ModaMingle.jpg'
 import novaNook from './NovaNook.jpg'
 import zenithZephyrCloset from './ZenithZephyr.jpg'
+import astraCloset from './AstraCloset.jpg'
 
 export const closets = [
   {
@@ -50,6 +51,14 @@ export const closets = [
     id: 36,
     name: 'Zenith Zephyr Closet',
     fileName: zenithZephyrCloset,
+    price: 6000,
+    quantity: 1,
+    amount: 6000,
+  },
+  {
+    id: 37,
+    name: 'Astra Closet',
+    fileName: astraCloset,
     price: 6000,
     quantity: 1,
     amount: 6000,

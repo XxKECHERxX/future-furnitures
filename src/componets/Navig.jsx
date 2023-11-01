@@ -28,7 +28,7 @@ const Navig = () => {
       <div>
         <NavLink to="cart" className={styles.busket}>
           <CartIcon />
-          <div>{totalQua}</div>
+          {!!totalQua && <div>{totalQua}</div>}
         </NavLink>
       </div>
     </nav>

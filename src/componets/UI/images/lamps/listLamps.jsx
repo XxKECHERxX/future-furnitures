@@ -8,7 +8,7 @@ import zenithZephyrLamp from './ZenithZephyr.jpg'
 
 export const lamps = [
   {
-    id: 37,
+    id: 38,
     name: 'Artisan Astra',
     fileName: artisanAstra,
     price: 1000,
@@ -16,7 +16,7 @@ export const lamps = [
     amount: 1000,
   },
   {
-    id: 38,
+    id: 39,
     name: 'Elegance Enlighten',
     fileName: eleganceEnlighten,
     price: 1000,
@@ -24,7 +24,7 @@ export const lamps = [
     amount: 1000,
   },
   {
-    id: 39,
+    id: 40,
     name: 'Lumina Lux',
     fileName: luminaLux,
     price: 1000,
@@ -32,7 +32,7 @@ export const lamps = [
     amount: 1000,
   },
   {
-    id: 40,
+    id: 41,
     name: 'Moda Mingle Lamp',
     fileName: modaMingleLamp,
     price: 1000,
@@ -40,7 +40,7 @@ export const lamps = [
     amount: 1000,
   },
   {
-    id: 41,
+    id: 42,
     name: 'Nova Nirvana Lamp',
     fileName: novaNirvanaLamp,
     price: 1000,
@@ -48,7 +48,7 @@ export const lamps = [
     amount: 1000,
   },
   {
-    id: 42,
+    id: 43,
     name: 'Radiant Regal Lamp',
     fileName: radiantRegalLamp,
     price: 1000,
@@ -56,7 +56,7 @@ export const lamps = [
     amount: 1000,
   },
   {
-    id: 43,
+    id: 44,
     name: 'Zenith Zephyr Lamp',
     fileName: zenithZephyrLamp,
     price: 1000,
