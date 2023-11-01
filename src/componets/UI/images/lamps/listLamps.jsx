@@ -13,7 +13,7 @@ export const lamps = [
     fileName: artisanAstra,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
   {
     id: 38,
@@ -21,7 +21,7 @@ export const lamps = [
     fileName: eleganceEnlighten,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
   {
     id: 39,
@@ -29,7 +29,7 @@ export const lamps = [
     fileName: luminaLux,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
   {
     id: 40,
@@ -37,7 +37,7 @@ export const lamps = [
     fileName: modaMingleLamp,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
   {
     id: 41,
@@ -45,7 +45,7 @@ export const lamps = [
     fileName: novaNirvanaLamp,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
   {
     id: 42,
@@ -53,7 +53,7 @@ export const lamps = [
     fileName: radiantRegalLamp,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
   {
     id: 43,
@@ -61,6 +61,6 @@ export const lamps = [
     fileName: zenithZephyrLamp,
     price: 1000,
     quantity: 1,
-    amount: 1,
+    amount: 1000,
   },
 ]

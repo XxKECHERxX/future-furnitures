@@ -9,6 +9,7 @@ import ListChairs from './componets/Products/lists/listChairs'
 import ListClosets from './componets/Products/lists/listClosets'
 import ListLamps from './componets/Products/lists/listLamps'
 import Item from './componets/Products/Item'
+import Cart from './componets/Cart/Cart'
 import Sales from './componets/Promotions/Sales'
 import About from './componets/Contacts/About'
 import './App.css'
@@ -30,6 +31,7 @@ function App() {
           </Route>
           <Route path="products/:id" element={<Item />} />
           <Route path="products/:category/:id" element={<Item />} />
+          <Route path="cart" element={<Cart />} />
           <Route path="sales" element={<Sales />} />
           <Route path="about" element={<About />} />
         </Route>

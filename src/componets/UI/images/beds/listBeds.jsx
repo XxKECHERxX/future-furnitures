@@ -18,7 +18,7 @@ export const beds = [
     fileName: artisanAstrum,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 20,
@@ -26,7 +26,7 @@ export const beds = [
     fileName: bedframe,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 21,
@@ -34,7 +34,7 @@ export const beds = [
     fileName: celestialComfort,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 22,
@@ -42,7 +42,7 @@ export const beds = [
     fileName: cozyCrescendo,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 23,
@@ -50,7 +50,7 @@ export const beds = [
     fileName: dreamScapeCanopy,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 24,
@@ -58,7 +58,7 @@ export const beds = [
     fileName: harmoniousHaven,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 25,
@@ -66,7 +66,7 @@ export const beds = [
     fileName: lunaLuxePlatform,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 26,
@@ -74,7 +74,7 @@ export const beds = [
     fileName: novaNirvana,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 27,
@@ -82,7 +82,7 @@ export const beds = [
     fileName: regalRestElegance,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 28,
@@ -90,7 +90,7 @@ export const beds = [
     fileName: serenitySlumber,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 29,
@@ -98,7 +98,7 @@ export const beds = [
     fileName: solaceSculpture,
     price: 4500,
     quantity: 1,
-    amount: 1,
+    amount: 4500,
   },
   {
     id: 30,
@@ -106,6 +106,6 @@ export const beds = [
     fileName: zenithZephyrSleepHaven,
     price: 4500,
     quantity: 1,
-    amount: 1,
-  }
+    amount: 4500,
+  },
 ]

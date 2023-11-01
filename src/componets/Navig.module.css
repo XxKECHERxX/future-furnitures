@@ -23,6 +23,9 @@
 }
 
 .navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   font-family: 'Montserrat';
   font-size: 1.2rem;
@@ -45,9 +48,17 @@
   border: solid 1px #000;
 }
 
-.basket {
+.busket {
   width: 150px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.busket div { 
+  margin: 0px 10px;
 }

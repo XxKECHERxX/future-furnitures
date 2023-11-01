@@ -16,7 +16,7 @@ export const chairs = [
     fileName: artisanBlend,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const chairs = [
     fileName: auroraAesthetic,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const chairs = [
     fileName: contourCrafted,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ export const chairs = [
     fileName: eleganceLoungin,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ export const chairs = [
     fileName: futuraFormaLounger,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ export const chairs = [
     fileName: infinityInspire,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ export const chairs = [
     fileName: modaMingle,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ export const chairs = [
     fileName: novaNirvana,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 9,
@@ -80,7 +80,7 @@ export const chairs = [
     fileName: streamlineSculpt,
     price: 1500,
     quantity: 1,
-    amount: 1,
+    amount: 1500,
   },
   {
     id: 10,
@@ -88,6 +88,6 @@ export const chairs = [
     fileName: zenithZephyr,
     price: 1500,
     quantity: 1,
-    amount: 1,
-  }
+    amount: 1500,
+  },
 ]

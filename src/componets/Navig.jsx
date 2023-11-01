@@ -1,10 +1,13 @@
 import { NavLink } from 'react-router-dom'
-import Busket from '../componets/UI/icons/Basket'
+import CartIcon from './UI/icons/CartIcon'
 import styles from './Navig.module.css'
+import { useSelector } from 'react-redux'
 
 const setActive = ({ isActive }) => (isActive ? styles.active : styles.navLinks)
 
 const Navig = () => {
+  const totalQua = useSelector((state) => state.cart.totalQuantity)
+
   return (
     <nav className={styles.navBar}>
       <div className={styles.logo}>Future & furnitutes</div>
@@ -22,8 +25,11 @@ const Navig = () => {
           Контакты
         </NavLink>
       </div>
-      <div className={styles.basket}>
-        <Busket />
+      <div>
+        <NavLink to="cart" className={styles.busket}>
+          <CartIcon />
+          <div>{totalQua}</div>
+        </NavLink>
       </div>
     </nav>
   )

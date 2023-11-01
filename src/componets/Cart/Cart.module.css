@@ -1,0 +1,86 @@
+.secCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.listCart {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: #ded2c6 30px 10px;
+}
+
+.point {
+  display: grid;
+  grid-template-columns: max-content 17% 37% 13% 9%;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-family: 'Montserrat';
+}
+
+.point img {
+  border-radius: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+.point div {
+  font-size: 1rem;
+  font-family: 'Montserrat';
+}
+
+.addRemBtn {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.addRemBtn button {
+  font-size: 1.1em;
+  font-family: 'Montserrat';
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text {
+  text-align: center;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.total div {
+  font-size: 1rem;
+  margin: 0px 20px;
+  font-family: 'Montserrat';
+}
+
+.deletBtn {
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.deletBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

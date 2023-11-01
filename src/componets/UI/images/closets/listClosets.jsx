@@ -12,7 +12,7 @@ export const closets = [
     fileName: chicCloset,
     price: 6000,
     quantity: 1,
-    amount: 1,
+    amount: 6000,
   },
   {
     id: 32,
@@ -20,7 +20,7 @@ export const closets = [
     fileName: eleganceEnsemble,
     price: 6000,
     quantity: 1,
-    amount: 1,
+    amount: 6000,
   },
   {
     id: 33,
@@ -28,7 +28,7 @@ export const closets = [
     fileName: luxeWardrobe,
     price: 6000,
     quantity: 1,
-    amount: 1,
+    amount: 6000,
   },
   {
     id: 34,
@@ -36,7 +36,7 @@ export const closets = [
     fileName: modaMingleCloset,
     price: 6000,
     quantity: 1,
-    amount: 1,
+    amount: 6000,
   },
   {
     id: 35,
@@ -44,7 +44,7 @@ export const closets = [
     fileName: novaNook,
     price: 6000,
     quantity: 1,
-    amount: 1,
+    amount: 6000,
   },
   {
     id: 36,
@@ -52,6 +52,6 @@ export const closets = [
     fileName: zenithZephyrCloset,
     price: 6000,
     quantity: 1,
-    amount: 1,
+    amount: 6000,
   },
 ]

@@ -1,4 +1,4 @@
-const Basket = () => {
+const CartIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,4 +15,4 @@ const Basket = () => {
   )
 }
 
-export default Basket
+export default CartIcon

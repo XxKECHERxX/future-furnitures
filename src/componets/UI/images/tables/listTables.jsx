@@ -14,7 +14,7 @@ export const tables = [
     fileName: artisanCrafted,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 12,
@@ -22,7 +22,7 @@ export const tables = [
     fileName: contourCraft,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 13,
@@ -30,7 +30,7 @@ export const tables = [
     fileName: elementalElegance,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 14,
@@ -38,7 +38,7 @@ export const tables = [
     fileName: harmonyHaven,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 15,
@@ -46,7 +46,7 @@ export const tables = [
     fileName: modaMingleTable,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 16,
@@ -54,7 +54,7 @@ export const tables = [
     fileName: novaNestleDining,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 17,
@@ -62,7 +62,7 @@ export const tables = [
     fileName: regalRadius,
     price: 3000,
     quantity: 1,
-    amount: 1,
+    amount: 3000,
   },
   {
     id: 18,
@@ -70,6 +70,6 @@ export const tables = [
     fileName: zenithZephyrTable,
     price: 3000,
     quantity: 1,
-    amount: 1,
-  }
+    amount: 3000,
+  },
 ]

@@ -1,13 +1,9 @@
-import { useParams } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
-import { chairs } from '../UI/images/chairs/listChairs'
-import { tables } from '../UI/images/tables/listTables'
-import { beds } from '../UI/images/beds/listBeds'
-import { closets } from '../UI/images/closets/listClosets'
-import { lamps } from '../UI/images/lamps/listLamps'
+import { useParams, useNavigate } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { fullCatalog } from './lists/listAllStuff'
+import { addToCart, removeFromCart } from '../store/cartSlice'
 import styles from './Item.module.css'
-
-const fullCatalog = [...chairs, ...tables, ...beds, ...closets, ...lamps]
+import { useEffect, useState } from 'react'
 
 const Item = () => {
   const { id } = useParams()
@@ -16,6 +12,32 @@ const Item = () => {
   const moveBack = () => navigate(-1)
 
   const selectItem = fullCatalog.find((item) => item.id == id)
+
+  const listToBuy = useSelector((state) => state.cart.list)
+
+  const [quantity, setQuantity] = useState(0)
+
+  const itemFromSliceList = listToBuy.find((item) => item.id === selectItem.id)
+
+  useEffect(() => {
+    if (listToBuy.length === 0 || !itemFromSliceList) {
+      setQuantity(0)
+    } else if (itemFromSliceList) {
+      setQuantity(itemFromSliceList.quantity)
+    }
+  }, [listToBuy, itemFromSliceList])
+
+  const dispatch = useDispatch()
+
+  const addCart = () => {
+    dispatch(addToCart(selectItem))
+  }
+
+  const removeCart = () => {
+    if (quantity !== 0) {
+      dispatch(removeFromCart(selectItem))
+    }
+  }
 
   return (
     <section className={styles.sectItem}>
@@ -28,9 +50,9 @@ const Item = () => {
             <li>{selectItem.name}</li>
             <br />
             <li>
-              Кол-во<button>+</button>
-              {selectItem.amount}
-              <button>-</button>
+              Кол-во<button onClick={addCart}>+</button>
+              {quantity}
+              <button onClick={removeCart}>-</button>
             </li>
             <br />
             <li>Цена {selectItem.price} $</li>
