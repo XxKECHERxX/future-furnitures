@@ -1,6 +1,5 @@
 {
   "homepage": "https://xxkecherxx.github.io/future_furnitures/",
-  "homepage": "https://xxkecherxx.github.io/future_furnitures/",
   "name": "future_furnitute",
   "version": "0.1.0",
   "private": true,
@@ -41,9 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
