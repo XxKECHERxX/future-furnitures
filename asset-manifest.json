@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/future-furnitures/static/css/main.31aaf9d3.css",
-    "main.js": "/future-furnitures/static/js/main.fcb0797c.js",
+    "main.js": "/future-furnitures/static/js/main.dc6511f6.js",
     "static/media/guestroom.jpg": "/future-furnitures/static/media/guestroom.ecd4eb76d0d19a9c2732.jpg",
     "static/media/promoFirst.jpg": "/future-furnitures/static/media/promoFirst.d54d8270eb3c3496138d.jpg",
     "static/media/tables.jpg": "/future-furnitures/static/media/tables.fced765a6ad42968f89a.jpg",
@@ -55,10 +55,10 @@
     "static/media/EleganceEnlighten.jpg": "/future-furnitures/static/media/EleganceEnlighten.55fdc3bcab8bcd24b26e.jpg",
     "index.html": "/future-furnitures/index.html",
     "main.31aaf9d3.css.map": "/future-furnitures/static/css/main.31aaf9d3.css.map",
-    "main.fcb0797c.js.map": "/future-furnitures/static/js/main.fcb0797c.js.map"
+    "main.dc6511f6.js.map": "/future-furnitures/static/js/main.dc6511f6.js.map"
   },
   "entrypoints": [
     "static/css/main.31aaf9d3.css",
-    "static/js/main.fcb0797c.js"
+    "static/js/main.dc6511f6.js"
   ]
 }
