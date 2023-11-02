@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+        <Route path="/*" element={<MainLayout />}>
           <Route index element={<HomePage />} />
           <Route path="products/*" element={<Catalog />}>
             <Route index element={<ListFullCatalog />} />
