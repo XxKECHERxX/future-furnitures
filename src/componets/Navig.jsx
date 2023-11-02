@@ -12,7 +12,7 @@ const Navig = () => {
     <nav className={styles.navBar}>
       <div className={styles.logo}>Future & furnitutes</div>
       <div className={styles.linksPanel}>
-        <NavLink to="future-furnitures/" className={setActive}>
+        <NavLink to="" className={setActive}>
           Главная
         </NavLink>
         <NavLink to="products" className={setActive}>
