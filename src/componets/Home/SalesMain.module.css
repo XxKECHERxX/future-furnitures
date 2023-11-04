@@ -3,8 +3,7 @@
   justify-content: center;
   width: auto;
   height: auto;
-  margin: 20px auto;
-  padding-right: 50px;
+  margin-top: 20px;
 }
 
 .button {
@@ -13,6 +12,7 @@
   align-items: center;
   width: 75px;
   height: auto;
+  margin: 0px 10px;
   font-size: 3rem;
 }
 
@@ -23,19 +23,18 @@
 }
 
 .slider {
-  width: 950px;
-  height: 260px;
   display: flex;
+  width: 895px;
+  height: 260px;
   overflow: hidden;
   border-radius: 10px;
-  margin-right: 10px;
 }
 
 .frameSales {
   position: relative;
-  width: 420px;
+  width: 430px;
   height: 250px;
-  margin: 0 10px;
+  margin-right: 10px;
   transition: ease-in-out;
 }
 
@@ -50,8 +49,8 @@
 .frameSales p {
   position: absolute;
   width: 300px;
-  bottom: 0;
   right: 0px;
+  bottom: 0px;
   text-align: center;
   z-index: 10;
   font-size: 1rem;
@@ -74,6 +73,8 @@
 
 .triangle {
   position: absolute;
+  width: auto;
+  height: auto;
   right: 0;
   overflow: hidden;
   border-radius: 15px;
@@ -83,4 +84,93 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .button {
+    width: 50px;
+    font-size: 2.5rem;
+  }
+  .slider {
+    width: 740px;
+    height: 210px;
+  }
+  .frameSales {
+    width: 340px;
+    height: 200px;
+  }
+  .frameSales p {
+    width: 240px;
+    font-size: 0.8rem;
+  }
+  .frameSales span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionSales {
+    margin-top: 15px;
+  }
+  .button {
+    width: 40px;
+    font-size: 2.3rem;
+  }
+  .slider {
+    width: 600px;
+    height: 190px;
+  }
+  .frameSales {
+    width: 285px;
+    height: 180px;
+  }
+  .frameSales p {
+    width: 220px;
+    font-size: 0.7rem;
+  }
+  .frameSales span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sectionSales {
+    margin-top: 15px;
+  }
+  .button {
+    font-size: 2rem;
+  }
+  .slider {
+    width: 500px;
+    height: 160px;
+  }
+  .frameSales {
+    width: 285px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .sectionSales {
+    margin-top: 10px;
+  }
+  .button {
+    font-size: 2rem;
+  }
+  .slider {
+    width: 450px;
+    height: 160px;
+  }
+  .frameSales {
+    width: 260px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .slider {
+    max-width: 370px;
+    height: 160px;
+    margin-bottom: 5px;
+  }
 }

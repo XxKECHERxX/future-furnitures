@@ -11,7 +11,7 @@
 }
 
 .pointCatalog {
-  width: 350px;
+  width: 370px;
   height: 240px;
   border-radius: 10px;
   margin: auto;
@@ -30,17 +30,9 @@
   color: #000;
 }
 
-.menuCatalog {
-  width: 450px;
-  height: 280px;
-  border-radius: 10px;
-  margin: 5px;
-  font-size: 2rem;
-}
-
 .pointMenu {
   position: relative;
-  width: 390px;
+  width: 410px;
   height: 260px;
   border-radius: 10px;
   margin: 20px;
@@ -72,4 +64,89 @@
 
 .pointMenu div:hover {
   display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .pointCatalog {
+    width: 300px;
+    height: 190px;
+    font-size: 1.5rem;
+  }
+  .pointMenu {
+    width: 330px;
+    height: 220px;
+    margin: 15px;
+    box-shadow: #ded2c6 25px 10px, #bbb0a6 50px 20px;
+  }
+  .pointLink div {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .pointCatalog {
+    width: 250px;
+    height: 180px;
+    font-size: 1.3rem;
+  }
+  .pointMenu {
+    width: 285px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: #ded2c6 20px 10px, #bbb0a6 40px 20px;
+  }
+  .pointLink div {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pointCatalog {
+    width: 210px;
+    height: 150px;
+    font-size: 1.2rem;
+  }
+  .pointMenu {
+    width: 230px;
+    height: 160px;
+    margin: 15px;
+    box-shadow: #ded2c6 20px 10px, #bbb0a6 40px 20px;
+  }
+  .pointLink div {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .pointCatalog {
+    max-width: 200px;
+    height: 130px;
+    font-size: 1.2rem;
+  }
+  .pointMenu {
+    max-width: 210px;
+    height: 140px;
+    margin: 10px;
+    box-shadow: #ded2c6 20px 10px, #bbb0a6 40px 20px;
+  }
+  .pointLink div {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pointCatalog {
+    max-width: 160px;
+    height: 120px;
+    font-size: 1rem;
+  }
+  .pointMenu {
+    max-width: 180px;
+    height: 140px;
+    margin: 5px;
+    box-shadow: #ded2c6 15px 10px, #bbb0a6 30px 20px;
+  }
+  .pointLink div {
+    font-size: 1rem;
+  }
 }

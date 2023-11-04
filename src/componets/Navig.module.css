@@ -59,6 +59,71 @@
   color: #000;
 }
 
-.busket div { 
+.busket div {
   margin: 0px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  .navLinks {
+    font-size: 1rem;
+  }
+  .active {
+    font-size: 1rem;
+  }
+  .busket {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+  .linksPanel {
+    max-width: 400px;
+  }
+  .navLinks {
+    font-size: 1rem;
+  }
+  .active {
+    font-size: 1rem;
+  }
+  .busket {
+    width: 100px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navBar {
+    display: grid;
+    grid-template-columns: [first] 1fr [line2] 1fr [end];
+    grid-template-rows: [row1-start] 45px [row1-end] 45px [last-line];
+  }
+  .logo {
+    width: auto;
+    grid-row-start: 1;
+    font-size: 1.2rem;
+  }
+  .linksPanel {
+    width: auto;
+    grid-column: first/end;
+    grid-row: row1-end/last-line;
+    justify-self: center;
+  }
+  .navLinks {
+    margin: 0 5px;
+    font-size: 1.1rem;
+  }
+  .active {
+    font-size: 1.1rem;
+  }
+  .busket {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
 }

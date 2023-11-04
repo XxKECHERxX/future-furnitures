@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Montserrat&display=swap');
 
 body {
+  background-color: #fff;
+  width: auto;
   margin: 0;
   font-family: 'Montserrat', 'Courier New', sans-serif;
   -webkit-font-smoothing: antialiased;

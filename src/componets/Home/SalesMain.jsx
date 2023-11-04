@@ -13,7 +13,7 @@ const SalesMain = () => {
     setPositionX('0')
   }
   const handleRightBtn = () => {
-    setPositionX('-435')
+    setPositionX('-860')
   }
 
   return (
@@ -28,7 +28,7 @@ const SalesMain = () => {
             className={styles.frameSales}
             style={{
               transform: `translateX(${positionX}px)`,
-              transitionDuration: `300ms`,
+              transitionDuration: `400ms`,
             }}
           >
             <NavLink to="sales" className={styles.navLinks} />
@@ -50,7 +50,7 @@ const SalesMain = () => {
             className={styles.frameSales}
             style={{
               transform: `translateX(${positionX}px)`,
-              transitionDuration: `350ms`,
+              transitionDuration: `450ms`,
             }}
           >
             <NavLink to="sales" className={styles.navLinks} />
@@ -72,7 +72,7 @@ const SalesMain = () => {
             className={styles.frameSales}
             style={{
               transform: `translateX(${positionX}px)`,
-              transitionDuration: `400ms`,
+              transitionDuration: `500ms`,
             }}
           >
             <NavLink to="sales" className={styles.navLinks} />
@@ -90,7 +90,6 @@ const SalesMain = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.button} onClick={handleRightBtn}>
           {'>'}
         </div>
