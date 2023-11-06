@@ -4,63 +4,82 @@
 }
 
 .promotions {
-  display: grid;
-  grid-template-columns: repeat(2, max-content);
-  grid-template-rows: repeat(2, max-content);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 30px auto;
   padding-bottom: 10px;
+  width: 80vw;
 }
 
-.promotions img {
-  position: absolute;
+.backImg {
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: #ded2c6 20px 10px;
+}
+
+.backImg img {
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 
-.firstPromo {
+.promo {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 640px;
-  height: 380px;
-  margin: 0px;
+  flex-direction: column;
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  background-color: #00000000;
   border-radius: 10px;
-  box-shadow: #ded2c6 50px 20px, #bbb0a6 100px 40px;
 }
 
 .promoText {
-  z-index: 10;
   display: flex;
+  height: 150px;
   width: auto;
-  margin-left: 50px;
-  padding: 20px 0px;
-  border-radius: 10px 0px 0px 10px;
+  padding: 5px;
+  margin: 10px;
+  border: solid 1px #000;
+  border-radius: 10px;
   background: #fff;
   align-items: center;
   font-size: 1rem;
+  box-shadow: #8a827b 20px 10px;
 }
 
 .promoText h3 {
-  margin: 20px;
+  margin: 10px;
 }
 
-.promoSecond {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 360px;
-  height: 380px;
-  margin: 0px;
-  border-radius: 10px;
-  box-shadow: #ded2c6 50px 20px;
+@media screen and (max-width: 1200px) {
+  .promotions {
+    margin: 15px auto;
+  }
+  .promo {
+    width: 300px;
+  }
+  .backImg {
+    height: 250px;
+  }
+  .promoText {
+    font-size: 0.9rem;
+  }
 }
 
-.promoThird {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 640px;
-  height: 250px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: #ded2c6 50px 20px;
+@media screen and (max-width: 920px) {
+  .promo {
+    width: 250px;
+  }
+  .backImg {
+    height: 225px;
+  }
+  .promoText {
+    font-size: 0.9rem;
+  }
+  .promoText {
+    font-size: 0.9rem;
+  }
 }

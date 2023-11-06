@@ -45,7 +45,7 @@ const Cart = () => {
                 <div className={styles.text}>
                   коллекция: <br /> {item.name}
                 </div>
-                <div>{item.amount} $</div>
+                <div className={styles.amount}>{item.amount} $</div>
                 <button
                   className={styles.deletBtn}
                   onClick={() => deleteItem(item)}
@@ -81,7 +81,9 @@ const Cart = () => {
           <label>
             <input type="text" name="adress" placeholder="Адрес для доставки" />
           </label>
-          <button type='reset' onClick={handlerConfirm}>{confirm}</button>
+          <button type="reset" onClick={handlerConfirm}>
+            {confirm}
+          </button>
         </form>
       </div>
     </section>

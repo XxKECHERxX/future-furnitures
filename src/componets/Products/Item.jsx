@@ -50,9 +50,12 @@ const Item = () => {
             <li>{selectItem.name}</li>
             <br />
             <li>
-              Кол-во<button onClick={addCart}>+</button>
-              {quantity}
-              <button onClick={removeCart}>-</button>
+              Кол-во
+              <div>
+                <button onClick={addCart}>+</button>
+                {quantity}
+                <button onClick={removeCart}>-</button>
+              </div>
             </li>
             <br />
             <li>Цена {selectItem.price} $</li>

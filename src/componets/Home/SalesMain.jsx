@@ -1,5 +1,4 @@
 import styles from './SalesMain.module.css'
-import Triangle from '../UI/icons/Triangle'
 import firstSales from '../UI/images/main/salesFirst.jpg'
 import secondSales from '../UI/images/main/salesSecond.jpg'
 import thirdSales from '../UI/images/main/salesThird.jpg'
@@ -39,9 +38,6 @@ const SalesMain = () => {
               уникальным ценам.
             </p>
             <div className={styles.boxSales}>
-              <div className={styles.triangle}>
-                <Triangle />
-              </div>
               <img src={secondSales} alt="Акция Вторая" />
             </div>
           </div>
@@ -61,9 +57,6 @@ const SalesMain = () => {
               выгодной цене!
             </p>
             <div className={styles.boxSales}>
-              <div className={styles.triangle}>
-                <Triangle />
-              </div>
               <img src={firstSales} alt="Акция Первая" />
             </div>
           </div>
@@ -83,9 +76,6 @@ const SalesMain = () => {
               обновите свой дом.
             </p>
             <div className={styles.boxSales}>
-              <div className={styles.triangle}>
-                <Triangle />
-              </div>
               <img src={thirdSales} alt="Акция Третья" />
             </div>
           </div>

@@ -6,38 +6,21 @@
 }
 
 .mapFrame {
-  position: relative;
-}
-
-.map {
   display: flex;
   width: 500px;
   height: 500px;
   justify-content: center;
   align-items: center;
   margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: #bbb0a6 40px 20px;
 }
 
-.map iframe {
+.mapFrame iframe {
   border-radius: 10px;
-}
-
-.mapShadow {
-  position: absolute;
-  z-index: -5;
-  top: 30px;
-  left: 75px;
-  width: 500px;
-  height: 500px;
-  border-radius: 10px;
-  background: #bbb0a6;
 }
 
 .contactFrame {
-  position: relative;
-}
-
-.contact {
   border-radius: 10px;
   border: 1px solid #000;
   background: #fff;
@@ -48,16 +31,59 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  box-shadow: #ded2c6 20px 10px;
 }
 
-.contactShadow {
-  position: absolute;
-  z-index: -5;
-  top: 20px;
-  left: 50px;
-  height: 300px;
-  width: 300px;
-  padding: 20px;
-  border-radius: 10px;
-  background: #ded2c6;
+@media screen and (max-width: 1200px) {
+  .mapFrame {
+    width: 400px;
+    height: 400px;
+    margin: 0 20px;
+    box-shadow: #bbb0a6 40px 20px;
+  }
+  .contactFrame {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: #ded2c6 20px 10px;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mapFrame {
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    box-shadow: #bbb0a6 30px 15px;
+  }
+  .contactFrame {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: #ded2c6 20px 10px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 50px 0px;
+  }
+  .mapFrame {
+    width: 340px;
+    height: 300px;
+    margin: 0 20px;
+    box-shadow: #bbb0a6 20px 10px;
+  }
+  .contactFrame {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: #ded2c6 20px 10px;
+    font-size: 0.8rem;
+  }
 }

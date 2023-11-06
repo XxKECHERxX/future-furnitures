@@ -18,7 +18,6 @@
   width: 225px;
   padding: 0px;
   margin: 5px;
-  font-size: 1rem;
 }
 
 .notActive {
@@ -54,7 +53,7 @@
   border-radius: 10px;
   background: #fff;
   font-size: 1.1rem;
-  box-shadow: #bbb0a6 20px -10px;
+  box-shadow: #ded2c6 20px -10px;
   text-decoration: none;
   color: #000;
 }
@@ -133,4 +132,143 @@
 
 .btnPage button:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .points ul {
+    width: 200px;
+  }
+  .notActive {
+    width: 175px;
+    font-size: 1rem;
+  }
+  .notActive:hover {
+    width: 200px;
+  }
+  .active {
+    width: 200px;
+    font-size: 1rem;
+  }
+  .stuff {
+    width: 680px;
+  }
+  .items {
+    width: 200px;
+    height: 210px;
+  }
+  .items ul {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .points ul {
+    width: 175px;
+  }
+  .notActive {
+    width: 150px;
+    padding: 15px 0px;
+    font-size: 0.9rem;
+    box-shadow: #bbb0a6 15px -10px;
+  }
+  .notActive:hover {
+    width: 175px;
+  }
+  .active {
+    width: 175px;
+    padding: 15px 0px;
+    font-size: 0.9rem;
+    box-shadow: #ded2c6 15px -10px;
+  }
+  .stuff {
+    width: 520px;
+  }
+  .items {
+    width: 150px;
+    height: 160px;
+    box-shadow: #8a827b 15px -10px;
+  }
+  .items ul {
+    font-size: 1rem;
+  }
+  .btnPage {
+    margin: 5px 30px;
+  }
+  .btnPage button {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .stuff {
+    max-width: 440px;
+  }
+  .items {
+    width: 200px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .stuff {
+    max-width: 360px;
+  }
+  .items {
+    width: 160px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .points ul {
+    width: 150px;
+  }
+  .notActive {
+    width: 125px;
+  }
+  .notActive:hover {
+    width: 150px;
+  }
+  .active {
+    width: 150px;
+  }
+  .stuff {
+    max-width: 340px;
+  }
+  .items {
+    width: 150px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .points ul {
+    display: grid;
+    width: auto;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(2, 180px);
+    grid-template-rows: repeat(3, max-content);
+  }
+  .active {
+    width: 170px;
+    justify-self: end;
+    margin-right: 5px;
+  }
+  .notActive {
+    width: 150px;
+    justify-self: end;
+    margin-right: 5px;
+  }
+  .stuff {
+    max-width: 380px;
+  }
+  .items {
+    width: 170px;
+    height: 160px;
+  }
 }

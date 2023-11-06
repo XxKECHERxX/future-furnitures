@@ -26,6 +26,7 @@
   border: 1px solid #000;
   font-family: 'Montserrat';
 }
+
 .point img {
   border-radius: 10px;
   width: 130px;
@@ -41,6 +42,7 @@
   width: 80%;
   justify-content: space-between;
 }
+
 .addRemBtn button {
   font-size: 1.1em;
   font-family: 'Montserrat';
@@ -64,6 +66,7 @@
   border-radius: 10px;
   border: 1px solid #000;
 }
+
 .total div {
   font-size: 1rem;
   margin: 0px 20px;
@@ -106,7 +109,7 @@
   border: 1px solid #000;
 }
 .orderForm button {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: 'Montserrat';
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -114,4 +117,75 @@
   border-radius: 10px;
   cursor: pointer;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .point div {
+    font-size: 0.9rem;
+  }
+  .total {
+    height: 45px;
+    margin: 15px;
+  }
+  .total div {
+    font-size: 0.9rem;
+    margin: 0px 15px;
+  }
+  .orderForm {
+    margin: 15px;
+  }
+  .orderForm form {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .listCart {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .secCart {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .point {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content 45px;
+  }
+  .amount {
+    grid-column: 2;
+  }
+  .deletBtn {
+    grid-column: 3;
+  }
+  .listCart {
+    width: 400px;
+    box-shadow: #ded2c6 20px 10px;
+  }
+  .orderForm {
+    width: 400px;
+    box-shadow: #bbb0a6 25px 10px;
+  }
+  .orderForm input {
+    width: 350px;
+  }
+  .orderForm button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .listCart {
+    width: 350px;
+    box-shadow: #ded2c6 20px 10px;
+  }
+  .orderForm {
+    width: 350px;
+    box-shadow: #bbb0a6 25px 10px;
+  }
+  .orderForm input {
+    width: 325px;
+  }
 }

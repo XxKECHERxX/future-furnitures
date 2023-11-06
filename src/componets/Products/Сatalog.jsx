@@ -17,7 +17,7 @@ const Catalog = () => {
       <div className={styles.catalog}>
         <div className={styles.points}>
           <ul>
-            <NavLink to="/products/all" className={setActive}>
+            <NavLink to="all" className={setActive}>
               <li>Всё</li>
             </NavLink>
 

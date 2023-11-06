@@ -82,7 +82,7 @@
     font-size: 1.1rem;
   }
   .linksPanel {
-    max-width: 400px;
+    max-width: 450px;
   }
   .navLinks {
     font-size: 1rem;
@@ -99,12 +99,12 @@
   .navBar {
     display: grid;
     grid-template-columns: [first] 1fr [line2] 1fr [end];
-    grid-template-rows: [row1-start] 45px [row1-end] 45px [last-line];
+    grid-template-rows: [row1-start] 55px [row1-end] 45px [last-line];
   }
   .logo {
     width: auto;
     grid-row-start: 1;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .linksPanel {
     width: auto;

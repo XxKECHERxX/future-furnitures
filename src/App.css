@@ -3,29 +3,3 @@
   margin: auto;
   max-width: 1440px;
 }
-
-@media screen and (max-width: 1200px) and (min-width: 1001px) {
-  .App {
-    max-width: 1200px;
-  }
-}
-@media screen and (max-width: 1000px) and (min-width: 801px) {
-  .App {
-    max-width: 1000px;
-  }
-}
-@media screen and (max-width: 800px) and (min-width: 621px) {
-  .App {
-    max-width: 800px;
-  }
-}
-@media screen and (max-width: 620px) and (min-width: 501px) {
-  .App {
-    max-width: 610px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .App {
-    max-width: 440px;
-  }
-}

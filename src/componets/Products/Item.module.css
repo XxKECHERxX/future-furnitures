@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .picture {
@@ -20,7 +20,6 @@
 .description {
   display: flex;
   width: 250px;
-  height: 350px;
   margin: 10px;
   flex-direction: column;
   align-items: center;
@@ -31,9 +30,14 @@
   box-shadow: #ded2c6 20px -10px;
 }
 .description ul {
-  padding: 0;
+  padding: 50px 0;
+  margin: 0;
   font-size: 1.2rem;
   list-style: none;
+}
+
+.description li div {
+  width: auto;
 }
 
 .description li button {
@@ -56,4 +60,83 @@
   margin: 20px;
   cursor: pointer;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .picture img {
+    max-width: 55vw;
+    max-height: 550px;
+  }
+  .description {
+    max-width: 25vw;
+  }
+  .description ul {
+    font-size: 1.1rem;
+  }
+  .description li button {
+    font-size: 1.1rem;
+  }
+  .button {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  .picture img {
+    max-width: 55vw;
+    max-height: 550px;
+  }
+  .description {
+    max-width: 25vw;
+  }
+  .description ul {
+    padding: 30px 0;
+    font-size: 1rem;
+  }
+  .description li {
+    margin: 0 10px;
+  }
+  .description li button {
+    font-size: 1rem;
+    margin: 10px;
+  }
+  .button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .description ul {
+    padding: 20px 0;
+  }
+  .picture {
+    margin: 20px;
+    box-shadow: #bbb0a6 20px -10px;
+  }
+  .button {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description ul {
+    font-size: 0.9rem;
+  }
+  .description li button {
+    font-size: 0.9rem;
+  }
+  .button {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sectItem {
+    flex-direction: column;
+  }
+  .picture img {
+    max-width: 75vw;
+  }
+  .description {
+    max-width: 75vw;
+  }
 }

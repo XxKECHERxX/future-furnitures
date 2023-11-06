@@ -15,27 +15,31 @@ const Sales = () => {
   return (
     <section className={styles.sectionPromos}>
       <div className={styles.promotions}>
-        <div className={styles.firstPromo}>
-          <img src={promoFirst} alt="Первая акция" />
+        <div className={styles.promo}>
+          <div className={styles.backImg}>
+            <img src={promoFirst} alt="Первая акция" />
+          </div>
           <div className={styles.promoText}>
-            <h3>5 % скидка</h3>новым клиентам. Праздничный сезон приближается, и
-            у нас есть для вас невероятные скидки! Откройте для себя мир
+            <h3>5 % скидка</h3>новым клиентам. Откройте для себя мир
             стильной мебели по уникальным ценам.
           </div>
         </div>
 
-        <div className={styles.promoSecond}>
-          <img src={promoSecond} alt="Вторая акция" />
+        <div className={styles.promo}>
+          <div className={styles.backImg}>
+            <img src={promoSecond} alt="Вторая акция" />
+          </div>
           <div className={styles.promoText}>
             <h3>7.5 % скидка</h3>
             при покупке от 3-х позиций. Это идеальное время для того, чтобы
-            превратить свой дом в уютное убежище. Не упустите шанс обновить
-            интерьер по выгодной цене!
+            превратить свой дом в уютное убежище.
           </div>
         </div>
 
-        <div className={styles.promoThird}>
-          <img src={promoThird} alt="Третья акция" />
+        <div className={styles.promo}>
+          <div className={styles.backImg}>
+            <img src={promoThird} alt="Третья акция" />
+          </div>
           <div className={styles.promoText}>
             <h3>10 % скидка</h3>при оформлении карты магазина. Посетите наш
             магазин сегодня и обновите свой дом с нашими эксклюзивными
