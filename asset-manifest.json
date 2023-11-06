@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/future-furnitures/static/css/main.ef178a10.css",
-    "main.js": "/future-furnitures/static/js/main.36aca84d.js",
+    "main.css": "/future-furnitures/static/css/main.7eebbdd6.css",
+    "main.js": "/future-furnitures/static/js/main.b10704f0.js",
     "static/media/guestroom.jpg": "/future-furnitures/static/media/guestroom.ecd4eb76d0d19a9c2732.jpg",
-    "static/media/promoFirst.jpg": "/future-furnitures/static/media/promoFirst.d54d8270eb3c3496138d.jpg",
     "static/media/tables.jpg": "/future-furnitures/static/media/tables.fced765a6ad42968f89a.jpg",
     "static/media/closets.jpg": "/future-furnitures/static/media/closets.4a59e1047f0c0f6fe70b.jpg",
-    "static/media/promoThird.jpg": "/future-furnitures/static/media/promoThird.8a89dd3a8469de3be85b.jpg",
     "static/media/beds.jpg": "/future-furnitures/static/media/beds.bd7c60310a9a6b880fc0.jpg",
     "static/media/ModaMingle.jpg": "/future-furnitures/static/media/ModaMingle.da2f6bb90d44e674fc8b.jpg",
     "static/media/ZenithZephyr.jpg": "/future-furnitures/static/media/ZenithZephyr.04843d8dfbe5b0c4ad09.jpg",
-    "static/media/salesThird.jpg": "/future-furnitures/static/media/salesThird.21c1cc44be0c3d18160a.jpg",
     "static/media/lamps.jpg": "/future-furnitures/static/media/lamps.fb5f087ee5818d9c5671.jpg",
-    "static/media/promoSecond.jpg": "/future-furnitures/static/media/promoSecond.95d016abd60dac8724ca.jpg",
+    "static/media/promoThird.jpg": "/future-furnitures/static/media/promoThird.c6b721f9aace3070c6ef.jpg",
+    "static/media/promoFirst.jpg": "/future-furnitures/static/media/promoFirst.cb84513b3fa5150ccc4c.jpg",
+    "static/media/salesThird.jpg": "/future-furnitures/static/media/salesThird.1277b81e2b665f7a96df.jpg",
     "static/media/chairs.jpg": "/future-furnitures/static/media/chairs.a0064238cb1b3474e0f2.jpg",
-    "static/media/salesSecond.jpg": "/future-furnitures/static/media/salesSecond.79a151c720bf812a7a93.jpg",
     "static/media/ModaMingle_Chair.jpg": "/future-furnitures/static/media/ModaMingle_Chair.bff0ee8d1f0b21643873.jpg",
     "static/media/LuxeWardrobe.jpg": "/future-furnitures/static/media/LuxeWardrobe.59db740753a24b7b3790.jpg",
+    "static/media/salesSecond.jpg": "/future-furnitures/static/media/salesSecond.efc4ba6fc8efcf2b32bf.jpg",
     "static/media/Elegance_Loungin.jpg": "/future-furnitures/static/media/Elegance_Loungin.6d8adc6f67e7cc327482.jpg",
     "static/media/RegalRadius.jpg": "/future-furnitures/static/media/RegalRadius.6dd03b6aec5518b7bed4.jpg",
     "static/media/HarmoniousHaven.jpg": "/future-furnitures/static/media/HarmoniousHaven.1e6d8a3768fe481182f6.jpg",
-    "static/media/salesFirst.jpg": "/future-furnitures/static/media/salesFirst.ef87fdca5ebc7d220ff0.jpg",
+    "static/media/promoSecond.jpg": "/future-furnitures/static/media/promoSecond.535b2bbf868bfbb4ba9e.jpg",
     "static/media/InfinityInspire_Chair.jpg": "/future-furnitures/static/media/InfinityInspire_Chair.47d9f43b5a610bf3f702.jpg",
     "static/media/NovaNirvana.jpg": "/future-furnitures/static/media/NovaNirvana.317ed17b3a7eac7ce964.jpg",
     "static/media/ElementalElegance.jpg": "/future-furnitures/static/media/ElementalElegance.88dd32db9bdd688be2d4.jpg",
     "static/media/ArtisanCrafted.jpg": "/future-furnitures/static/media/ArtisanCrafted.a6c60b31325d7272b423.jpg",
+    "static/media/salesFirst.jpg": "/future-furnitures/static/media/salesFirst.bc331c49522ff2aa8793.jpg",
     "static/media/SolaceSculpture.jpg": "/future-furnitures/static/media/SolaceSculpture.5da90d2b656281371f37.jpg",
     "static/media/ContourCraft.jpg": "/future-furnitures/static/media/ContourCraft.eae3dad28441af95083b.jpg",
     "static/media/ArtisanBlend_Recliner.jpg": "/future-furnitures/static/media/ArtisanBlend_Recliner.368d7e9659b5ff3d56c8.jpg",
@@ -54,11 +54,11 @@
     "static/media/ArtisanAstrum.jpg": "/future-furnitures/static/media/ArtisanAstrum.2c687bb890268e09e64f.jpg",
     "static/media/EleganceEnlighten.jpg": "/future-furnitures/static/media/EleganceEnlighten.55fdc3bcab8bcd24b26e.jpg",
     "index.html": "/future-furnitures/index.html",
-    "main.ef178a10.css.map": "/future-furnitures/static/css/main.ef178a10.css.map",
-    "main.36aca84d.js.map": "/future-furnitures/static/js/main.36aca84d.js.map"
+    "main.7eebbdd6.css.map": "/future-furnitures/static/css/main.7eebbdd6.css.map",
+    "main.b10704f0.js.map": "/future-furnitures/static/js/main.b10704f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef178a10.css",
-    "static/js/main.36aca84d.js"
+    "static/css/main.7eebbdd6.css",
+    "static/js/main.b10704f0.js"
   ]
 }
