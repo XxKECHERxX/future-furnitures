@@ -3,17 +3,38 @@ import firstSales from '../UI/images/main/salesFirst.jpg'
 import secondSales from '../UI/images/main/salesSecond.jpg'
 import thirdSales from '../UI/images/main/salesThird.jpg'
 import { NavLink } from 'react-router-dom'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const SalesMain = () => {
-  const [positionX, setPositionX] = useState('')
+  const [positionX, setPositionX] = useState(0)
+
+  let SLIDE_WIDTH = 430 // 340 (1200), 285 (1000), 260 (800)
+
+  const WINDOW_WIDTH = window.innerWidth
+
+  if (WINDOW_WIDTH <= 1200 && WINDOW_WIDTH >= 1000) {
+    SLIDE_WIDTH = 340
+  } else if (WINDOW_WIDTH <= 1000 && WINDOW_WIDTH >= 800) {
+    SLIDE_WIDTH = 285
+  } else if (WINDOW_WIDTH <= 800) {
+    SLIDE_WIDTH = 260
+  }
 
   const handleLeftBtn = () => {
-    setPositionX('0')
+    setPositionX(positionX + SLIDE_WIDTH)
   }
   const handleRightBtn = () => {
-    setPositionX('-860')
+    setPositionX(positionX - SLIDE_WIDTH)
   }
+
+  useEffect(() => {
+    if (positionX > 0) {
+      setPositionX(0)
+    }
+    if (positionX === -(SLIDE_WIDTH * 3)) {
+      setPositionX(0)
+    }
+  }, [positionX, SLIDE_WIDTH])
 
   return (
     <section>
