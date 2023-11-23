@@ -4,5 +4,6 @@
  - HTML
  - CSS Modules
  - Javascript
- - Redux Toolkit
+ - React
  - React Router
+ - Redux Toolkit
